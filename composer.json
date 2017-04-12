@@ -1,0 +1,28 @@
+{
+    "name": "pcextreme/rgw-admin-client",
+    "description": "PHP client for the rados gateway admin operations api.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niels Tholenaar",
+            "email": "niels@pcextreme.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PCextreme\\RgwAdminClient\\" : "src/"
+        }
+    },
+    "require": {
+        "php-http/message": "^1.0",
+        "php-http/client-implementation": "^1.0",
+        "php-http/discovery": "^1.0",
+        "php-http/client-common": "^1.2"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*",
+        "phpunit/phpunit": "^5.5"
+    },
+    "minimum-stability": "dev"
+}
